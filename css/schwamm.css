@@ -462,8 +462,9 @@ details {
     width: 120px;
     justify-content: center;
     align-items: center;
-    margin-left: 50%;
+    margin-left: 45%;
     cursor: pointer;
+    margin-top: 5vh;
    }
 
    #lightbox img {
