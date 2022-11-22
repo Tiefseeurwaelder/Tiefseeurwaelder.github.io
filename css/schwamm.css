@@ -449,3 +449,23 @@ details {
     background-color: rgba(0,0,0,0.8);
     display: none;
   }
+
+   #lightbox.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+
+   .posterlightbox {
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    cursor: pointer;
+   }
+
+   #lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+   }
