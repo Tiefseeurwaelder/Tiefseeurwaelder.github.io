@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="css/schwamm.css" />
         <link rel="stylesheet" href="https://use.typekit.net/gtb4isg.css">
         <link rel="stylesheet" href="https://use.typekit.net/gtb4isg.css">
-        
+        <link href="css/lightbox.css" rel="stylesheet">
        
       </head>
    
@@ -61,9 +61,16 @@
 
     <!-- Links -->
 
-    <img class="posterlightbox" src="media/poster01.jpg" alt="Poster anzeigen">
+    <div class="vorschaucontainer">
+        <a href="media/poster01.jpg" data-lightbox="show-1" data-title="Poster 1">
+        <img class="vorschau" src="media/icon_poster.png" alt="Poster 1">
+      </a>
+      <a href="media/poster01.jpg" data-lightbox="show-1" data-title="Poster 2">
+        <img class="vorschau" src="media/icon_video.png" alt="Poster 2">
+      </a>
 
-    <br><br><br><br>
+    </div>
+    
 
 <hr class="lang">
 
@@ -134,7 +141,15 @@
     <button class="buttonzitat"><span class="italic">Tiefseeschwammgründe sind wichtig.</span></button>
    </a></div>
    
-<img class="posterlightbox" src="media/poster02.jpg" alt="Poster anzeigen">   
+   <div class="vorschaucontainer">
+    <a href="media/poster01.jpg" data-lightbox="show-1" data-title="Poster 1">
+    <img class="vorschau" src="media/icon_poster.png" alt="Poster 1">
+  </a>
+  <a href="media/poster01.jpg" data-lightbox="show-1" data-title="Poster 2">
+    <img class="vorschau" src="media/icon_video.png" alt="Poster 2">
+  </a>
+
+</div> 
 
 </section>
 
@@ -196,7 +211,15 @@ Ansammlungen von Schwämmen in der Tiefsee. Dabei bieten sie, ähnlich den Wäld
          </a>
     </div>
 
-    <img class="posterlightbox" src="media/poster03.jpg" alt="Poster anzeigen">
+    <div class="vorschaucontainer">
+        <a href="media/poster01.jpg" data-lightbox="show-1" data-title="Poster 1">
+        <img class="vorschau" src="media/icon_poster.png" alt="Poster 1">
+      </a>
+      <a href="media/poster01.jpg" data-lightbox="show-1" data-title="Poster 2">
+        <img class="vorschau" src="media/icon_video.png" alt="Poster 2">
+      </a>
+
+    </div>
 
 </section>
 
@@ -996,6 +1019,9 @@ Ansammlungen von Schwämmen in der Tiefsee. Dabei bieten sie, ähnlich den Wäld
 </section>
 
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/lightbox.js"></script>
 
 </body>
 

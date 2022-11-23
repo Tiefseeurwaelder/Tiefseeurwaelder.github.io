@@ -441,3 +441,16 @@ details {
     margin-top: 5vh;
   }
 
+.vorschau {
+ max-width: 100px;
+
+
+  cursor: pointer;
+  margin-top: 5vh;
+ }
+
+ .vorschaucontainer {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+ }
