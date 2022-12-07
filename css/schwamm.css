@@ -449,6 +449,10 @@ details {
   margin-top: 5vh;
  }
 
+ .vorschau:hover {
+  scale: 110%;
+ }
+
  .vorschaucontainer {
   display: flex;
   justify-content: center;
