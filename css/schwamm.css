@@ -166,6 +166,30 @@ hyphens: auto;
 .italic:hover {
 
   color: #f5c62a;
+  font-size: 2,5rem;
+ /* text-decoration: underline;
+  text-underline-position: under;*/
+}
+
+.italicblau{
+
+  font-style: italic;
+  font-family: bilo, sans-serif;
+
+  font-weight: 400;
+  
+ text-align: left;
+  
+  font-size: 2rem;
+}
+
+
+.italicblau:hover {
+
+  color: #312783;
+ 
+  text-decoration-color:#312783 ;
+
 }
 
 
@@ -252,9 +276,9 @@ cursor: pointer;
     
     cursor: pointer;
 
-    text-decoration: underline;
+   /* text-decoration: underline;
     text-underline-position: under;
-    }
+    */}
 
 
 
@@ -457,4 +481,17 @@ details {
   display: flex;
   justify-content: center;
   gap: 25px;
+ }
+
+
+ .video {
+padding-top: 5em;
+  width: 35vw;
+
+
+ }
+ .videoquer {
+
+  padding-top: 10em;
+  width: 60vw;
  }
