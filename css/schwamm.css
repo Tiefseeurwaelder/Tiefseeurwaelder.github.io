@@ -206,41 +206,12 @@ hyphens: auto;
     
     max-width: 400px;
 
-    line-height: 0em;
+    line-height: 1em;
 
-}
-/*
-.button {
-
-font-family: bilo, sans-serif;
-
-font-weight: 400;
-
-font-style: normal;
-
-font-size: 2rem;
-
-color: white;
-
-background-color: #00060c;
-
-
-
-border-color: white;
-
-border-style: 1px;
-
-margin-top: 1vh;
+    text-align: center;
 
 }
 
-button:hover {
-    color: #00060c;
-
-background-color: white;
-
-cursor: pointer;
-}*/
 
 
 .buttonzitat {
@@ -259,8 +230,7 @@ cursor: pointer;
     
     background-color: #00060c;
     
-
- border: none;
+    border: none;
     
     margin-top: 1vh;
 
